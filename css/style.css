@@ -20,8 +20,8 @@ main #button-bar{
     height: 60px;
     background-color: white;
     margin-bottom: 2px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 
@@ -63,8 +63,12 @@ section .task {
 
 }
 
-section .button:hover , :focus{
+section .button:hover{
     background-color: #47ADF1;
     color: white;
+}
 
+section .button:focus{
+    background-color: #47ADF1;
+    color: white;
 }
