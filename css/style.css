@@ -28,3 +28,19 @@ body{
     vertical-align: top;
     font-size: 3em;
 }
+
+section .button{
+    padding: 5px 5px;
+    background-color: white;
+    color: #C8CED3;
+    border: none;
+    border: 2px solid #C8CED3;
+    border-radius: 5px;
+
+}
+
+section .button:hover , :focus{
+    background-color: #47ADF1;
+    color: white;
+
+}
