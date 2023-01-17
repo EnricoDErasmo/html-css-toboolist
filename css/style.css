@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-color: #F6F8F9;
+}
+
+#navbar{
+    background-color: white;
+}
+
+#navbar #logo-title{
+    padding: 10px 20px;
+}
+
+#navbar #logo{
+    height: 60px;
+    width: 60px;
+}
+
+#navbar h1{
+    display: inline-block;
+    line-height: 60px;
+    vertical-align: top;
+    font-size: 3em;
+}
